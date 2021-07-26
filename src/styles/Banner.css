@@ -1,0 +1,31 @@
+.banner {
+	background-image: url("../images/a915ff27-6062-436d-a7a9-007685423f7b.webp");
+	height: 400px;
+	width: 1176px;
+	border-radius: 20px;
+	/* Center and scale the image nicely */
+	background-position: center;
+	background-repeat: no-repeat;
+	margin: auto auto;
+	background-size: cover;
+}
+
+.banner__text {
+	padding-top: 110px;
+	padding-left: 102px;
+}
+
+.banner__text > h2 {
+	color: #222222;
+	font-size: 50px;
+	font-weight: 500;
+}
+.MuiButtonBase-root {
+	background-color: #222222 !important;
+	padding: 10px 21px !important;
+	border-radius: 9px !important;
+}
+
+.banner__text > .MuiButtonBase-root > .MuiButton-label {
+	color: white !important;
+}

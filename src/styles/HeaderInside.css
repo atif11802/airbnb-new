@@ -1,0 +1,135 @@
+.headerinside {
+	position: relative;
+	top: 84px;
+}
+
+.headerInside__box {
+	background-color: #ffffff;
+	display: flex;
+	margin: auto auto;
+	width: 820px;
+	border-radius: 50px;
+	align-items: center;
+
+	height: 66px;
+}
+
+.headerInside__boxLocation {
+	border-right: 1px solid #ebebeb;
+	padding-left: 37px;
+	padding-right: 71px;
+	cursor: pointer;
+	height: 100%;
+	padding-top: 11px;
+}
+.headerInside__boxLocation:hover {
+	background-color: #ebebeb;
+	border-radius: 50px;
+}
+.headerInside__boxLocation > p {
+	font-weight: bold;
+	font-size: 14px;
+	color: #464444;
+}
+
+.headerInside__boxLocation > span {
+	font-weight: lighter;
+	font-size: 14px;
+	color: #222222;
+}
+
+.headerInside__boxCheckIn {
+	border-right: 1px solid #ebebeb;
+	padding-left: 25px;
+	padding-right: 89px;
+	cursor: pointer;
+	height: 100%;
+	padding-top: 11px;
+}
+.headerInside__boxCheckIn:hover {
+	background-color: #ebebeb;
+	border-radius: 50px;
+}
+.headerInside__boxCheckIn > p {
+	font-weight: bold;
+	font-size: 14px;
+	color: #464444;
+}
+.headerInside__boxCheckIn > span {
+	font-weight: lighter;
+	font-size: 14px;
+	color: #222222;
+}
+.headerInside__boxCheckOut {
+	border-right: 1px solid #ebebeb;
+	padding-left: 25px;
+	padding-right: 89px;
+	cursor: pointer;
+	height: 100%;
+	padding-top: 11px;
+}
+.headerInside__boxCheckOut:hover {
+	background-color: #ebebeb;
+	border-radius: 50px;
+}
+.headerInside__boxCheckOut > p {
+	font-weight: bold;
+	font-size: 14px;
+	color: #464444;
+}
+.headerInside__boxCheckOut > span {
+	font-weight: lighter;
+	font-size: 14px;
+	color: #222222;
+}
+
+.headerInside__boxGuest {
+	display: flex;
+	align-items: center;
+	cursor: pointer;
+	height: 100%;
+}
+
+.headerInside__boxGuestbox {
+	padding-left: 30px;
+	padding-right: 71px;
+}
+.headerInside__boxGuest:hover {
+	background-color: #ebebeb;
+	border-radius: 50px;
+}
+
+.headerInside__boxGuestbox > p {
+	font-weight: bold;
+	font-size: 14px;
+	color: #464444;
+}
+.headerInside__boxGuestbox > span {
+	font-weight: lighter;
+	font-size: 14px;
+	color: #222222;
+}
+
+.headerInside__boxGuestSearch {
+	background-color: #ff5a5f;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+}
+.headerInside__boxGuestSearch:hover {
+	background-color: #e51d59;
+}
+
+.headerInside__boxGuestSearch > .MuiSvgIcon-root {
+	margin: 14px;
+	font-size: 23px !important;
+	color: white;
+}
+
+.headerInside__text > .MuiButtonBase-root {
+	background-color: white !important;
+}
+
+.MuiButtonBase-root > .MuiButton-label {
+	color: black !important;
+}

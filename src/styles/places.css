@@ -1,0 +1,58 @@
+.places {
+	width: 1176px;
+	margin: auto auto;
+}
+
+.places__live > h2 {
+	padding-top: 50px;
+	padding-bottom: 50px;
+	font-size: 35px;
+	color: #222222;
+	font-weight: 600;
+}
+.places__livebox {
+	display: flex;
+	justify-content: space-between;
+}
+.places__discover > h2 {
+	padding-top: 50px;
+	padding-bottom: 50px;
+	font-size: 35px;
+	color: #222222;
+	font-weight: 600;
+}
+.places__discoverBox {
+	display: flex;
+	justify-content: space-between;
+}
+.plcaes__banner {
+	margin-top: 90px;
+
+	background-image: url("../images/rsz_pexels-tsvetoslav-hristov-2678435_1.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 1176px;
+	height: 402px;
+	border-radius: 20px;
+}
+.places__bannerText {
+	padding-top: 119px;
+	padding-left: 100px;
+}
+.places__bannerText > h2 {
+	color: white;
+	font-size: 50px;
+	font-weight: 400;
+}
+.places__bannerText > p {
+	color: white;
+	margin-top: 10px;
+	font-size: 20px;
+	font-weight: 400;
+}
+
+.places__bannerText > .MuiButtonBase-root {
+	background-color: white !important;
+	padding: 15px 26px !important;
+}
