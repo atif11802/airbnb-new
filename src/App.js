@@ -1,29 +1,31 @@
+import { useEffect, useState } from "react";
 import "./App.css";
 import Banner from "./component/Banner";
 import Header from "./component/Header";
+import Headersecond from "./component/Header2";
 import HeaderInside from "./component/HeaderInside";
 import Places from "./component/Places";
-import { useState } from "react";
-import Headersecond from "./component/Header2";
 
 function App() {
 	const [navbar, setNavbar] = useState(0);
 
-	const changeBackground = () => {
-		// setNavbar(window.scrollY);
-		// setNavbar(window.pageYOffset);
-		setNavbar(
-			document.documentElement.scrollTop ||
-				window.pageYOffset ||
-				window.scrollY
-		);
-	};
+	// const changeBackground = () => {
+	// 	// setNavbar(window.scrollY);
+	// 	// setNavbar(window.pageYOffset);
+		
+	// };
 
-	console.log(navbar);
-	window.addEventListener("scroll", changeBackground);
+	// console.log(navbar);
+	
+	useEffect(()=> {
+		window.addEventListener("scroll", ()=>{
+			setNavbar(window.scrollY);
+		});
+	}, [])
 
 	return (
 		<div className="app">
+			
 			{navbar >= 80 ? <Headersecond /> : <Header />}
 			{/* <Header2 /> */}
 			{/* <Header /> */}
