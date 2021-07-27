@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/airbnb-new/static/css/main.90fdd46b.chunk.css",
+    "main.js": "/airbnb-new/static/js/main.740cb7dd.chunk.js",
+    "main.js.map": "/airbnb-new/static/js/main.740cb7dd.chunk.js.map",
+    "runtime-main.js": "/airbnb-new/static/js/runtime-main.1a94d6ea.js",
+    "runtime-main.js.map": "/airbnb-new/static/js/runtime-main.1a94d6ea.js.map",
+    "static/css/2.c2e18bb2.chunk.css": "/airbnb-new/static/css/2.c2e18bb2.chunk.css",
+    "static/js/2.2a4ebee0.chunk.js": "/airbnb-new/static/js/2.2a4ebee0.chunk.js",
+    "static/js/2.2a4ebee0.chunk.js.map": "/airbnb-new/static/js/2.2a4ebee0.chunk.js.map",
+    "index.html": "/airbnb-new/index.html",
+    "static/css/2.c2e18bb2.chunk.css.map": "/airbnb-new/static/css/2.c2e18bb2.chunk.css.map",
+    "static/css/main.90fdd46b.chunk.css.map": "/airbnb-new/static/css/main.90fdd46b.chunk.css.map",
+    "static/js/2.2a4ebee0.chunk.js.LICENSE.txt": "/airbnb-new/static/js/2.2a4ebee0.chunk.js.LICENSE.txt",
+    "static/media/Banner.css": "/airbnb-new/static/media/a915ff27-6062-436d-a7a9-007685423f7b.2ef9b3ee.webp",
+    "static/media/App.css": "/airbnb-new/static/media/pexels-binyamin-mellish-186076 1.eab50d65.jpg",
+    "static/media/pexels-deva-darshan-938582.fd4ffc37.jpg": "/airbnb-new/static/media/pexels-deva-darshan-938582.fd4ffc37.jpg",
+    "static/media/pexels-ericson-fernandes-3459765.c5d12d0f.jpg": "/airbnb-new/static/media/pexels-ericson-fernandes-3459765.c5d12d0f.jpg",
+    "static/media/pexels-krystyna-zygalska-1662242.8eb35821.jpg": "/airbnb-new/static/media/pexels-krystyna-zygalska-1662242.8eb35821.jpg",
+    "static/media/pexels-los-muertos-crew-8908119.7f2d75a3.jpg": "/airbnb-new/static/media/pexels-los-muertos-crew-8908119.7f2d75a3.jpg",
+    "static/media/pexels-mike-glezos-3278939.b8bb0bae.jpg": "/airbnb-new/static/media/pexels-mike-glezos-3278939.b8bb0bae.jpg",
+    "static/media/pexels-suzy-hazelwood-3117550.ba3f4266.jpg": "/airbnb-new/static/media/pexels-suzy-hazelwood-3117550.ba3f4266.jpg",
+    "static/media/pngkey.com-airbnb-logo-png-606021.d9dae1d8.png": "/airbnb-new/static/media/pngkey.com-airbnb-logo-png-606021.d9dae1d8.png",
+    "static/media/places.css": "/airbnb-new/static/media/rsz_pexels-tsvetoslav-hristov-2678435_1.daa969c9.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1a94d6ea.js",
+    "static/css/2.c2e18bb2.chunk.css",
+    "static/js/2.2a4ebee0.chunk.js",
+    "static/css/main.90fdd46b.chunk.css",
+    "static/js/main.740cb7dd.chunk.js"
+  ]
+}
