@@ -133,3 +133,9 @@
 .MuiButtonBase-root > .MuiButton-label {
 	color: black !important;
 }
+
+.headerInside__dateRange > .rdrDateRangePickerWrapper {
+	position: absolute;
+	top: 89px;
+	margin-left: 395px;
+}

@@ -12,21 +12,21 @@ function App() {
 	// const changeBackground = () => {
 	// 	// setNavbar(window.scrollY);
 	// 	// setNavbar(window.pageYOffset);
-		
+
 	// };
 
-	// console.log(navbar);
-	
-	useEffect(()=> {
-		window.addEventListener("scroll", ()=>{
+	console.log(navbar);
+
+	useEffect(() => {
+		window.addEventListener("scroll", () => {
 			setNavbar(window.scrollY);
 		});
-	}, [])
+	}, []);
 
 	return (
 		<div className="app">
-			
-			{navbar >= 80 ? <Headersecond /> : <Header />}
+			{navbar >= 80 && <Headersecond />}
+			{navbar < 80 && <Header />}
 			{/* <Header2 /> */}
 			{/* <Header /> */}
 
